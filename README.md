@@ -41,10 +41,9 @@
 | `nmap 10.129.42.253` | Run nmap on an IP |
 | `nmap -sV -sC -p- 10.129.42.253` | Run an nmap script scan on an IP|
 | `sC parameter` | to specify that Nmap scripts should be used to try and obtain more detailed information|
-| `sC parameter` | to specify that Nmap scripts should be used to try and obtain more detailed information|
+| `sv parameter` | parameter instructs Nmap to perform a version scan|
 | `locate scripts/citrix` | List various available nmap scripts |
 | `nmap --script smb-os-discovery.nse -p445 10.10.10.40` | Run an nmap script on an IP |
-| `sV` | parameter instructs Nmap to perform a version scan|
 | `netcat 10.10.10.10 22` | Grab banner of an open port |
 | `smbclient -N -L \\\\10.129.42.253` | List SMB Shares |
 | `smbclient \\\\10.129.42.253\\users` | Connect to an SMB share |
